@@ -1,0 +1,65 @@
+[ 2016-09-09T08:31:34+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-09T08:32:29+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-09T08:32:40+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-09T16:36:07+08:00 ]EXCEPTION: web\admin\controller\Tag 不存在
+[ 2016-09-09T17:58:27+08:00 ]EXCEPTION: 没有数据用于插入,请检查字段名
+[ 2016-09-09T18:13:57+08:00 ]EXCEPTION: Method web\admin\controller\Tag::__empty() does not exist
+[ 2016-09-09T18:41:19+08:00 ]EXCEPTION: Method web\admin\controller\Tag::__empty() does not exist
+[ 2016-09-09T18:50:36+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-09T18:51:30+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-09T19:03:54+08:00 ]EXCEPTION: Method web\admin\controller\Tag::__empty() does not exist
+[ 2016-09-09T19:04:00+08:00 ]EXCEPTION: Method web\admin\controller\Tag::__empty() does not exist
+[ 2016-09-09T20:28:57+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON aid = article_aid  INNER JOIN article_tag article_tag ON article_aid = tag_tid      ;BindParams:array (
+)23000;1052;Champ: 'article_aid' dans on clause est ambigu
+[ 2016-09-09T20:30:43+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON aid = article_aid  INNER JOIN article_tag article_tag ON article_tid article_tid       ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'article_tid' à la ligne 1
+[ 2016-09-09T20:31:32+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON aid = article_aid  INNER JOIN article_tag article_tag ON article_tid article_tid       ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'article_tid' à la ligne 1
+[ 2016-09-09T20:32:45+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON aid = article_aid  INNER JOIN article_tag article_tag ON article_aid article_aid       ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'article_aid' à la ligne 1
+[ 2016-09-09T20:33:10+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON aid = article_aid  INNER JOIN article_tag article_tag ON aid article_aid       ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de 'article_aid' à la ligne 1
+[ 2016-09-09T20:48:02+08:00 ]EXCEPTION: SELECT * FROM article_data article_data INNER JOIN article_tag article_tag ON article_aid = article_aid WHERE article_tag.article_aid = ?     ;BindParams:array (
+  1 => '1',
+)23000;1052;Champ: 'article_aid' dans on clause est ambigu
+[ 2016-09-09T20:48:12+08:00 ]EXCEPTION: SELECT * FROM article_data article_data INNER JOIN article_tag article_tag ON article_aid = article_aid WHERE article_tag.article_aid = ?     ;BindParams:array (
+  1 => '1',
+)23000;1052;Champ: 'article_aid' dans on clause est ambigu
+[ 2016-09-09T20:48:13+08:00 ]EXCEPTION: SELECT * FROM article_data article_data INNER JOIN article_tag article_tag ON article_aid = article_aid WHERE article_tag.article_aid = ?     ;BindParams:array (
+  1 => '1',
+)23000;1052;Champ: 'article_aid' dans on clause est ambigu
+[ 2016-09-09T20:48:16+08:00 ]EXCEPTION: SELECT * FROM article_data article_data INNER JOIN article_tag article_tag ON article_aid = article_aid      ;BindParams:array (
+)23000;1052;Champ: 'article_aid' dans on clause est ambigu
+[ 2016-09-09T20:50:57+08:00 ]EXCEPTION: SELECT article_aid FROM article_data article_data INNER JOIN article_tag article_tag ON article_data.article_aid = article_tag.article_aid WHERE article_tag.article_aid = ?     ;BindParams:array (
+  1 => '1',
+)23000;1052;Champ: 'article_aid' dans field list est ambigu
+[ 2016-09-09T20:51:46+08:00 ]EXCEPTION: SELECT article_aid,tag_tid FROM article_data article_data INNER JOIN article_tag article_tag ON article_data.article_aid = article_tag.article_aid WHERE article_tag.article_aid = ?     ;BindParams:array (
+  1 => '1',
+)23000;1052;Champ: 'article_aid' dans field list est ambigu
+[ 2016-09-09T21:42:50+08:00 ]EXCEPTION: SELECT * FROM category  WHERE category_cid = ?     ;BindParams:array (
+  1 => '1',
+)42S22;1054;Champ 'category_cid' inconnu dans where clause
+[ 2016-09-09T21:45:48+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-09T21:45:53+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-09T21:45:57+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-09T22:23:13+08:00 ]EXCEPTION: SELECT article_tid FROM article_tag  WHERE article_aid = ?     ;BindParams:array (
+  1 => 14,
+)42S22;1054;Champ 'article_tid' inconnu dans field list
+[ 2016-09-09T22:24:07+08:00 ]EXCEPTION: SELECT article_tid FROM article_tag  WHERE article_aid = ?     ;BindParams:array (
+  1 => 14,
+)42S22;1054;Champ 'article_tid' inconnu dans field list
+[ 2016-09-09T22:24:38+08:00 ]EXCEPTION: SELECT article_tid FROM article_tag  WHERE article_aid = ?     ;BindParams:array (
+  1 => 14,
+)42S22;1054;Champ 'article_tid' inconnu dans field list
+[ 2016-09-09T22:24:48+08:00 ]EXCEPTION: SELECT article_tid FROM article_tag  WHERE article_aid = ?     ;BindParams:array (
+  1 => 14,
+)42S22;1054;Champ 'article_tid' inconnu dans field list
+[ 2016-09-09T22:25:50+08:00 ]EXCEPTION: SELECT * FROM article_tag  WHERE article_aid = ? AND name = ?     ;BindParams:array (
+  1 => 14,
+  2 => 'article_tid',
+)42S22;1054;Champ 'name' inconnu dans where clause
+[ 2016-09-09T22:29:06+08:00 ]EXCEPTION: SELECT article_tid FROM article_tag  WHERE article_aid = ?     ;BindParams:array (
+  1 => 14,
+)42S22;1054;Champ 'article_tid' inconnu dans field list
+[ 2016-09-09T23:10:38+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-09T23:22:24+08:00 ]EXCEPTION: web\admin\controller\Webset 不存在

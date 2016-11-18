@@ -1,0 +1,8 @@
+[ 2016-09-11T14:12:13+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/
+[ 2016-09-11T14:12:17+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/
+[ 2016-09-11T14:20:37+08:00 ]EXCEPTION: Method web\admin\controller\Link::__empty() does not exist
+[ 2016-09-11T14:22:33+08:00 ]EXCEPTION: Method web\admin\controller\Link::__empty() does not exist
+[ 2016-09-11T15:41:42+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON aid = article_data.aid      ;BindParams:array (
+)42S22;1054;Champ 'article_data.aid' inconnu dans on clause
+[ 2016-09-11T15:41:54+08:00 ]EXCEPTION: SELECT * FROM article article INNER JOIN article_data article_data ON article.aid = article_data.aid      ;BindParams:array (
+)42S22;1054;Champ 'article_data.aid' inconnu dans on clause

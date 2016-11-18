@@ -1,0 +1,7 @@
+[ 2016-09-07T19:13:02+08:00 ]EXCEPTION: show columns from user ;BindParams:array (
+)3D000;1046;Aucune base n'a été sélectionnée
+[ 2016-09-07T19:42:39+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/master.php
+[ 2016-09-07T20:05:57+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/
+[ 2016-09-07T20:20:46+08:00 ]EXCEPTION: Method web\admin\controller\Index::__empty() does not exist
+[ 2016-09-07T21:38:29+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/index.html
+[ 2016-09-07T21:40:45+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/index.html

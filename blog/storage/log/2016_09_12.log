@@ -1,0 +1,60 @@
+[ 2016-09-12T08:55:15+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T08:58:52+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T08:59:12+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T08:59:30+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-12T08:59:36+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-12T08:59:38+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-12T09:43:43+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:22+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:22+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:23+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:23+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:23+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:23+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:29+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:30+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:30+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:42+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:44:42+08:00 ]EXCEPTION: SELECT count(*) AS m FROM article  WHERE is_recyle = ?     ;BindParams:array (
+  1 => 1,
+)42S22;1054;Champ 'is_recyle' inconnu dans where clause
+[ 2016-09-12T09:53:16+08:00 ]EXCEPTION: Method web\admin\controller\Article::__empty() does not exist
+[ 2016-09-12T10:00:53+08:00 ]EXCEPTION: UPDATE user SET `username`=? WHERE id = ? ;BindParams:array (
+  1 => '后盾网',
+  2 => 1,
+)42S22;1054;Champ 'id' inconnu dans where clause
+[ 2016-09-12T10:29:36+08:00 ]EXCEPTION: SELECT * FROM article  WHERE  AND  is_recycle = ? OR title like ? OR sendtime like ? OR author like ?     ;BindParams:array (
+  1 => 1,
+  2 => '%年%',
+  3 => '%年%',
+  4 => '%年%',
+)42000;1064;Erreur de syntaxe près de 'AND  is_recycle = 1 OR title like '%年%' OR sendtime like '%年%' OR author lik' à la ligne 1
+[ 2016-09-12T11:09:47+08:00 ]EXCEPTION: Method web\home\controller\Entry::__empty() does not exist

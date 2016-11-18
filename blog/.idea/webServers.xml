@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="598f956b-1d3c-43f1-98cb-36629c454dd8" name="微信1" url="http://c70_yangyuhui.houdunphp.com">
+        <fileTransfer host="c70_yangyuhui.houdunphp.com" port="21" rootFolder="/wwwroot/hdphp" username="c70_yangyuhui">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+[ 2016-09-08T09:06:22+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-09-08T09:06:27+08:00 ]EXCEPTION: Method web\admin\controller\Index::__empty() does not exist
+[ 2016-09-08T09:39:23+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-09-08T09:39:27+08:00 ]EXCEPTION: Method web\admin\controller\Index::__empty() does not exist
+[ 2016-09-08T16:24:19+08:00 ]EXCEPTION: Method web\admin\controller\Index::__empty() does not exist
+[ 2016-09-08T16:31:32+08:00 ]EXCEPTION: Method web\admin\controller\Index::__empty() does not exist
+[ 2016-09-08T16:40:28+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/master.html
+[ 2016-09-08T16:42:12+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-08T16:42:15+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-08T17:10:09+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-08T17:11:54+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-08T17:16:06+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/master.html
+[ 2016-09-08T17:17:10+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-08T17:18:21+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/master.html
+[ 2016-09-08T17:18:35+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/master.html
+[ 2016-09-08T17:29:10+08:00 ]EXCEPTION: web\index\controller\Category 不存在
+[ 2016-09-08T17:29:35+08:00 ]EXCEPTION: web\index\controller\Category 不存在
+[ 2016-09-08T18:25:57+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-08T18:26:04+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
